@@ -15,6 +15,8 @@ namespace dobbelstenen_2025
         public Form1()
         {
             InitializeComponent();
+            Dobbelsteen dobbelsteen1 = new Dobbelsteen(6);
+            Dobbelsteen dobbelsteen2 = new Dobbelsteen(20);
         }
     }
 }
