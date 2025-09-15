@@ -17,6 +17,16 @@ namespace dobbelstenen_2025
             InitializeComponent();
             Dobbelsteen dobbelsteen1 = new Dobbelsteen(6);
             Dobbelsteen dobbelsteen2 = new Dobbelsteen(20);
+
+            Gooier gooier = new Gooier();
+            gooier.geef(dobbelsteen1);
+            gooier.geef(dobbelsteen2);
+            gooier.geef(new Dobbelsteen(6));
+
+            for (int i=0; i< 20; i++)
+            {
+                Console.WriteLine(gooier.gooi());
+            }
         }
     }
 }

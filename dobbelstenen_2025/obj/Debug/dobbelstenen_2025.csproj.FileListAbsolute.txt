@@ -1,0 +1,9 @@
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\bin\Debug\dobbelstenen_2025.exe.config
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\bin\Debug\dobbelstenen_2025.exe
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\bin\Debug\dobbelstenen_2025.pdb
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\obj\Debug\dobbelstenen_2025.csproj.AssemblyReference.cache
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\obj\Debug\dobbelstenen_2025.Properties.Resources.resources
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\obj\Debug\dobbelstenen_2025.csproj.GenerateResource.cache
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\obj\Debug\dobbelstenen_2025.csproj.CoreCompileInputs.cache
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\obj\Debug\dobbelstenen_2025.exe
+C:\Users\BartKindt\source\repos\dobbelstenen_2025\dobbelstenen_2025\obj\Debug\dobbelstenen_2025.pdb
