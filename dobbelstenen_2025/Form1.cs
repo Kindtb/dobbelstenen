@@ -23,10 +23,12 @@ namespace dobbelstenen_2025
             gooier.geef(dobbelsteen2);
             gooier.geef(new Dobbelsteen(6));
 
-            for (int i=0; i< 20; i++)
-            {
-                Console.WriteLine(gooier.gooi());
-            }
+            TextBox textBox = new TextBox();
+            textBox.Multiline = true;
+
+            Waarnemer waarnemer = new Waarnemer(gooier);
+            waarnemer.tel(1000);
+            waarnemer.toonResultaat(textBox);
         }
     }
 }

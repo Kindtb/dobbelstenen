@@ -8,5 +8,6 @@ namespace dobbelstenen_2025
 {
     internal class Waarnemer
     {
+
     }
 }
