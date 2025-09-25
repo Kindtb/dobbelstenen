@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,20 +16,35 @@ namespace dobbelstenen_2025
         public Form1()
         {
             InitializeComponent();
-            Dobbelsteen dobbelsteen1 = new Dobbelsteen(6);
-            Dobbelsteen dobbelsteen2 = new Dobbelsteen(20);
-
-            Gooier gooier = new Gooier();
-            gooier.geef(dobbelsteen1);
-            gooier.geef(dobbelsteen2);
-            gooier.geef(new Dobbelsteen(6));
-
             TextBox textBox = new TextBox();
             textBox.Multiline = true;
+            textBox.Size = new Size(300, 500);
+            textBox.Location = new Point(0, 50);
+            textBox.ScrollBars = ScrollBars.Vertical;
+            Controls.Add(textBox);
+            TextBox textBox2 = new TextBox();
+            textBox2.Multiline = true;
+            textBox2.Size = new Size(300, 500);
+            textBox2.Location = new Point(300, 50);
+            textBox2.ScrollBars = ScrollBars.Vertical;
+            Controls.Add(textBox2);
+            Panel panel = new Panel();
+            panel.Size = new Size(600, 50);
+            Controls.Add(panel);
 
-            Waarnemer waarnemer = new Waarnemer(gooier);
-            waarnemer.tel(1000);
-            waarnemer.toonResultaat(textBox);
+
+            GooierManager gooierManager = new GooierManager(panel);
+            /*
+            gooierManager.gooierIsKlaar += (sender, gooier) =>
+            {
+                Waarnemer waarnemer = new Waarnemer(gooier);
+                waarnemer.tel(1000000);
+                waarnemer.toonResultaat(textBox);
+
+                waarnemer.tel(1000000);
+                waarnemer.toonResultaat(textBox2);
+            };
+            */
         }
     }
 }

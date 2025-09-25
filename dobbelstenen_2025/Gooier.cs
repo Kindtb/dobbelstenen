@@ -14,6 +14,12 @@ namespace dobbelstenen_2025
         public void geef(Dobbelsteen dobbelsteen)
         {
             dobbelstenen.Add(dobbelsteen);
+            Console.WriteLine($"ik heb nu {dobbelstenen.Count} dobbelstenen");
+        }
+        public void wisStenen()
+        {
+            dobbelstenen.Clear();
+            Console.WriteLine($"ik heb nu {dobbelstenen.Count} dobbelstenen");
         }
         public int gooi()
         {
@@ -24,6 +30,21 @@ namespace dobbelstenen_2025
                 aantalOgen += randomGenerator.Next(1, dobbelsteen.aantalVlakken + 1);
             }
             return aantalOgen;
+        }
+
+        public int getAantalDobbelstenen()
+        {
+            return dobbelstenen.Count;
+        }
+        public int getMaximumAantalOgen()
+        {
+            int maximum = 0;
+            foreach (Dobbelsteen dobbelsteen in dobbelstenen)
+            {
+                maximum += dobbelsteen.aantalVlakken;
+            }
+
+            return maximum;
         }
 
 

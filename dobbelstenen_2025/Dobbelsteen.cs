@@ -10,6 +10,10 @@ namespace dobbelstenen_2025
     {
         public int aantalVlakken;
 
+        public Dobbelsteen()
+        {
+            this.aantalVlakken = 6;
+        }
         public Dobbelsteen(int aantalVlakken)
         {
             this.aantalVlakken = aantalVlakken;
