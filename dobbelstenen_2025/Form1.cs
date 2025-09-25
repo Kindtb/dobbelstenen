@@ -34,7 +34,7 @@ namespace dobbelstenen_2025
 
 
             GooierManager gooierManager = new GooierManager(panel);
-            /*
+            
             gooierManager.gooierIsKlaar += (sender, gooier) =>
             {
                 Waarnemer waarnemer = new Waarnemer(gooier);
@@ -44,7 +44,7 @@ namespace dobbelstenen_2025
                 waarnemer.tel(1000000);
                 waarnemer.toonResultaat(textBox2);
             };
-            */
+            
         }
     }
 }
